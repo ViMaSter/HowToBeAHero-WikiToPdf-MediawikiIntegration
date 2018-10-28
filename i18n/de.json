@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vincent Mahnke"
+		]
+	},
+	"pdfparserintegration-desc": "Anbindung des HTBAH-PDFParsers als Alternative für MediaWikis Standarddruckfunktion",
+	"pdfparserintegration-sidebar-title": "Erstellt eine druckbare PDF der aktuell angezeigten Seite",
+	"pdfparserintegration-sidebar-text": "PDF generieren"
+}

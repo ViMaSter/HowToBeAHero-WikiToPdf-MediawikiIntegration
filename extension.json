@@ -1,0 +1,25 @@
+{
+	"name": "PDFParser Integration",
+	"version": "0.1.0",
+	"author": [
+		"Vincent Mahnke"
+	],
+	"url": "https://github.com/ViMaSter/HowToBeAHero-WikiToPdf-MediawikiIntegration",
+	"descriptionmsg": "pdfparserintegration-desc",
+	"license-name": "GPL-3.0-or-later",
+	"type": "other",
+	"Hooks": {
+		"BaseTemplateToolbox": [
+			"PDFParserIntegration\\Hooks::onTemplateBuildToolbox"
+		]
+	},
+	"MessagesDirs": {
+		"PDFParser": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"PDFParserIntegration\\Hooks": "PDFParserIntegration.Hooks.class.php"
+	},
+	"manifest_version": 1
+}
