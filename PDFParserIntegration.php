@@ -4,11 +4,7 @@ if (!defined('MEDIAWIKI')) {
 	die('Not an entry point.');
 }
 
-if (!defined('ParamProcessor_VERSION')) {
-	die('PDFParserIntegration requires extension ParamProcessor');
-}
-
-global $wgExtensionFunctions,$wgExtensionMessagesFiles, $wgExtensionCredits, $wgHooks, $wgResourceModules, $wgMessagesDirs;
+global $wgExtensionFunctions, $wgExtensionCredits, $wgHooks, $wgMessagesDirs;
 
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
