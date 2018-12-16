@@ -7,7 +7,7 @@ namespace PDFParserIntegration {
 			unset($toolbox["print"]);	
 			$toolbox["htbah-print"] = [
 				'msg'  => 'pdfparserintegration-sidebar-text',
-				'href'  => "http://howtobeahero.de:1117/?title=".$baseTemplate->getSkin()->getContext()->getTitle(),
+				'href'  => "http://howtobeahero.de:1117/?title=".urlencode($baseTemplate->getSkin()->getContext()->getTitle()),
 				'id'    => 'htbah-print',
 			];
 			return true;
