@@ -10,7 +10,7 @@ namespace PDFParserIntegration {
                         $toolbox["htbah-print"] = [
                                 'msg'  => 'pdfparserintegration-sidebar-text',
                                 'href'  => $wgPDFParserURL.urlencode($baseTemplate->getSkin()->getContext()->getTitle()$,
-								'id'    => 'htbah-print',
+				'id'    => 'htbah-print',
                         ];
                         return true;
                 }
